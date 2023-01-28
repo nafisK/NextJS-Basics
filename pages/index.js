@@ -1,22 +1,25 @@
-import Footer from '@/components/Footer'
-import Navbar from '@/components/Navbar'
+import styles from '@/styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
     <div>
-      <h1>Home Page</h1>
-      <p>
+      <h1 className={styles.title}>Home Page</h1>
+      <p className={styles.text}>
         Consequat magna aliquip et sit veniam mollit aute nulla ipsum laborum
         dolore magna.
       </p>
-      <p>
+      <p className={styles.text}>
         Consequat magna aliquip et sit veniam mollit aute nulla ipsum laborum
         dolore magna.
       </p>
-      <p>
+      <p className={styles.text}>
         Consequat magna aliquip et sit veniam mollit aute nulla ipsum laborum
         dolore magna.
       </p>
+      <Link href='/ninjas' className={styles.btn}>
+        See Ninja Listing
+      </Link>
     </div>
   )
 }
