@@ -1,14 +1,9 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
+import React from 'react'
 
-const inter = Inter({ subsets: ['latin'] })
-
-export default function Home() {
+export default function about() {
   return (
     <div>
-      <h1>Home Page</h1>
+      <h1>about</h1>
       <p>
         Consequat magna aliquip et sit veniam mollit aute nulla ipsum laborum
         dolore magna.
