@@ -12,17 +12,9 @@ export default function Home() {
       <div>
         <h1 className={styles.title}>Home Page</h1>
         <p className={styles.text}>
-          Consequat magna aliquip et sit veniam mollit aute nulla ipsum laborum
-          dolore magna.
+          Welcome to Ninja Listing. Hire the next top Ninja.{' '}
         </p>
-        <p className={styles.text}>
-          Consequat magna aliquip et sit veniam mollit aute nulla ipsum laborum
-          dolore magna.
-        </p>
-        <p className={styles.text}>
-          Consequat magna aliquip et sit veniam mollit aute nulla ipsum laborum
-          dolore magna.
-        </p>
+        <p>Built with Next.js</p>
         <Link href='/ninjas' className={styles.btn}>
           See Ninja Listing
         </Link>
